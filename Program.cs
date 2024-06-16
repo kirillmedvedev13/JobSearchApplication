@@ -22,7 +22,7 @@ if (!app.Environment.IsDevelopment())
 }
 
 
-
+Seed.SeedData(app);
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
